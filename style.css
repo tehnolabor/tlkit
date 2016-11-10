@@ -21,34 +21,17 @@ body {
 
 }
 
-.download-wrapper {
-  height: 300px;
-  width: 300px;
-  background-color: #00ace6;
-  border-radius: 50%;
-  transition: background-color 0.2s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: hand;
-  cursor: pointer;
-  position: absolute;
-  left: calc(50% - 150px);
-  top: calc(50% - 150px);
-  filter: blur(2px);
-}
-
 .download-paragraph-wrapper {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  background-color: #00ace6;
   transition: background-color 0.2s ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: hand;
   cursor: pointer;
-  z-index: 3;
   position: absolute;
   left: calc(50% - 150px);
   top: calc(50% - 150px);
@@ -60,7 +43,6 @@ body {
 }
 
 .download-paragraph-wrapper p {
-  filter: blur(1px);
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   color: white;
