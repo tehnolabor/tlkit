@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+body, html {
+  overflow: hidden;
+}
 
 body {
   background-color: #ccc;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+
 }
 
 .download-wrapper {
