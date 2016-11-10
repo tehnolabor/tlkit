@@ -2,6 +2,7 @@
 
 body, html {
   overflow: hidden;
+  position: fixed;
 }
 
 body {
